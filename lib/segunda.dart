@@ -46,7 +46,6 @@ class Segunda extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            // Escolha do usuário
             Image.asset('images/$usuarioEscolha.png', width: 150, height: 150),
             const SizedBox(height: 10),
             const Text(
@@ -77,7 +76,6 @@ class Segunda extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            // Botão para jogar novamente
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
